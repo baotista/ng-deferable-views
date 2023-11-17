@@ -1,0 +1,5 @@
+@for (product of productList; track product.id){
+  <app-product-card [product]="product"/>
+} @empty {
+  <div class="no-product"><p>No product to show!</p></div>
+}

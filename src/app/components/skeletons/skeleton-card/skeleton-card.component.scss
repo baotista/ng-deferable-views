@@ -1,0 +1,25 @@
+.sk-img {
+  background-color: gray;
+  width: 100%;
+  aspect-ratio: 1.33;
+}
+
+.product-info {
+  & > * {
+    background-color: gray;
+    height: 1.1rem;
+  }
+
+  .product-name {
+    width: 60%;
+  }
+
+  .product-price {
+    width: 15%;
+  }
+}
+
+.product-description div {
+  background-color: gray;
+  height: 0.9rem;
+}
